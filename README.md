@@ -18,11 +18,17 @@ Para instalar o pacote em desenvolvimento:
 remotes::install_github("jjesusfilho/tjsp")
 ```
 
-## Example
+## Quem pode usar o MNI:
 
-This is a basic example which shows you how to solve a common problem:
+Para usar o MNI, você deve estar devidamente autorizado pelo respectivo
+tribunal, com senha e usuário. Esta solução não usa tokens.
+
+## Exemplo
+
+Para baixar o xml dos dados básicos de São Paulo:
 
 ``` r
 library(mni)
-## basic example code
+dir.create("mni")
+mni_consultar_processo(processo = "10057833820228260663", diretorio = "mni")
 ```
