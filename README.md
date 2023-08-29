@@ -4,6 +4,8 @@
 # mni
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/jjesusfilho/mni/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jjesusfilho/mni/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 Implementa o Modelo Nacional de Interoperabilidade (MNI) no R.

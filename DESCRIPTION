@@ -12,3 +12,13 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 URL: https://github.com/jjesusfilho/mni
 BugReports: https://github.com/jjesusfilho/mni/issues
+Imports: 
+    getPass,
+    glue,
+    httr2,
+    lubridate,
+    progress,
+    purrr,
+    stringr,
+    tibble,
+    xml2
