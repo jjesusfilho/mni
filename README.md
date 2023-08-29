@@ -21,7 +21,9 @@ remotes::install_github("jjesusfilho/tjsp")
 ## Quem pode usar o MNI:
 
 Para usar o MNI, você deve estar devidamente autorizado pelo respectivo
-tribunal, com senha e usuário. Esta solução não usa tokens.
+tribunal, com senha e usuário. Esta solução não usa tokens. Leia a ajuda
+da função `mni_consultar_processo` para saber como criar as variáveis de
+ambiente com as credenciais.
 
 ## Exemplo
 
